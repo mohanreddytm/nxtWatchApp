@@ -1,0 +1,9 @@
+.gaming-page-cont {
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+
+.gaming-page-image {
+  width: 18vw;
+}

@@ -1,0 +1,68 @@
+.video-page-lower-one-cont {
+  display: flex;
+  height: 95vh;
+}
+
+.video-page-leader {
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-page-image {
+  min-width: 75vw;
+  margin-top: 32px;
+}
+
+.like-dislike-item-cont {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-right: 8px;
+}
+
+.like-icon {
+  font-size: 14px;
+}
+
+.like-share-cont-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 75vw;
+}
+
+.divide-line-cont {
+  display: flex;
+}
+
+.divide-line {
+  border: 1px solid #d7dfe9;
+  margin-bottom: 16px;
+  flex-grow: 1;
+}
+
+.video-page-profile-cont {
+  display: flex;
+  justify-content: center;
+  width: 75vw;
+  margin-bottom: 16px;
+}
+
+.video-page-profile-image {
+  height: 40px;
+  margin: 0px 8px;
+}
+
+.video-page-profile-right-cont {
+  margin-left: 8px;
+}
+
+.special-class-name {
+  color: blue;
+}
+
+.normal-one-the {
+  color: pink;
+}

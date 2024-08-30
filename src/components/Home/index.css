@@ -1,0 +1,129 @@
+.home-left-top-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media (max-width: 767px) {
+  #rightHeaderImages {
+    display: none;
+  }
+}
+
+.center-the-content {
+  text-align: center;
+}
+
+.home-left-top-logos {
+  font-size: 14px;
+  margin-right: 16px;
+}
+
+.home-left-bottom-heading {
+  font-size: 16px;
+}
+
+.center-the-content {
+  text-align: center;
+}
+
+.gaming-bottom-cont {
+  display: flex;
+  margin: 0px;
+  height: 95vh;
+  padding: 0px;
+}
+
+.contact-images-cont {
+  display: flex;
+  padding-left: 0px;
+}
+.images-in-contact {
+  list-style-type: none;
+}
+
+.contact-logos {
+  height: 20px;
+  margin-right: 8px;
+}
+
+.home-left-bottom-desc {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.main-right-top-cont {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  background-image: url("https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png");
+  background-size: cover;
+}
+
+.close-bottom {
+  align-self: flex-end;
+  font-size: 16px;
+}
+.header-logo-2 {
+  width: 11vw;
+}
+.main-right-top-cont-desc {
+  color: #1e293b;
+  font-size: 14px;
+  font-weight: 500;
+  height: 1.5;
+}
+
+.main-right-top-cont-button {
+  color: rgba(3, 3, 3, 0.637);
+  border: 1px solid rgba(3, 3, 3, 0.637);
+  background-color: transparent;
+  padding: 8px 16px;
+  font-weight: 500;
+  font-size: 12px;
+  align-self: flex-start;
+  margin-top: 12px;
+}
+
+.search-cont {
+  display: flex;
+  align-items: center;
+  margin: 8px;
+}
+
+.videos-container {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 8px;
+}
+
+.loading-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.no-search-results-image {
+  width: 30vw;
+}
+
+.no-search-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 16px;
+}
+
+.retry-button {
+  background-color: #00306e;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 16px;
+  font-size: 10;
+  font-weight: 400;
+}

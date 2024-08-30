@@ -1,0 +1,32 @@
+.video-player-cont {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  margin: 8px;
+}
+
+.thumbnail-image {
+  width: 25vw;
+}
+
+.video-player-content-container {
+  display: flex;
+}
+
+.video-player-profile-logo {
+  height: 30px;
+  margin: 12px 16px 8px 8px;
+}
+
+.video-player-content-cont-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-player-lower-cont {
+  display: flex;
+}
+
+.link-normal {
+  text-decoration: none;
+}

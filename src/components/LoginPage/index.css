@@ -1,0 +1,53 @@
+.website-logo {
+  width: 10vw;
+  align-self: center;
+  margin-bottom: 8px;
+}
+
+.login-main-container {
+  width: 30vw;
+}
+
+@media only screen and (max-width: 767px) {
+  .login-main-container {
+    width: 80vw;
+  }
+
+  .website-logo {
+    width: 20vw;
+  }
+}
+
+.login-main-cont-show-cont {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.login-main-cont-show-input {
+  height: 12px;
+}
+
+.login-button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  font-size: 10px;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 8px;
+  margin-top: 16px;
+}
+
+.error-msg {
+  color: red;
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 2px;
+  padding-top: 0px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}

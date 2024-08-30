@@ -1,0 +1,26 @@
+.no-saved-videos-image {
+  width: 50vw;
+}
+
+.saved-bottom-cont {
+  display: flex;
+  margin: 0px;
+  height: 92vh;
+
+  background-color: black;
+  padding: 0px;
+}
+
+.saved-right-top {
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.scroll-saved-videos {
+  overflow-y: scroll;
+  height: 92vh;
+}

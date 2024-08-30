@@ -1,0 +1,17 @@
+.trending-bottom-cont {
+  display: flex;
+  margin: 0px;
+  height: 95vh;
+  padding: 0px;
+}
+
+.trending-right-top {
+  display: flex;
+  width: 85vw;
+  flex-direction: column;
+}
+
+.trending-icon {
+  color: #ff0000;
+  font-size: 16px;
+}

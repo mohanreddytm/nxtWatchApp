@@ -1,0 +1,85 @@
+.header-logo {
+  width: 10vw;
+}
+
+.main-img {
+  display: none;
+}
+
+.logout-button-text {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (max-width: 767px) {
+  .header-logo {
+    width: 20vw;
+  }
+
+  #checkingTwo {
+    color: black;
+    font-size: 24px;
+    font-weight: 800;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .logout-button-text {
+    display: none;
+  }
+
+  .main-img {
+    display: inline;
+  }
+}
+
+.headers-right-cont {
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.every-item-headers {
+  list-style-type: none;
+  margin-right: 16px;
+}
+
+.theme-change-button {
+  font-size: 24px;
+}
+
+.right-header-images {
+  height: 24px;
+}
+
+.light-theme {
+  color: white;
+}
+
+.buttons-cont {
+  display: flex;
+  border: none;
+}
+
+.popup-content {
+  padding: 0px;
+}
+
+.cancel-button {
+  background-color: transparent;
+  color: #94a3b8;
+  border: 1px solid #94a3b8;
+  padding: 8px 16px;
+  border-radius: 1px;
+}
+
+.confirm-button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+
+  padding: 8px 16px;
+  border-radius: 2px;
+  margin-left: 12px;
+}
